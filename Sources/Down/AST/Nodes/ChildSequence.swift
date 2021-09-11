@@ -5,7 +5,8 @@
 //  Created by Sven Weidauer on 05.10.2020
 //
 
-import DownLib.libcmark
+import libcmark
+import Foundation
 
 /// Sequence of child nodes.
 

@@ -9,7 +9,7 @@
 #if !os(Linux)
 
 import Foundation
-import DownLib.libcmark
+import libcmark
 
 public protocol DownAttributedStringRenderable: DownHTMLRenderable, DownASTRenderable {
 

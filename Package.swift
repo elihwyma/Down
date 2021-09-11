@@ -37,27 +37,6 @@ let package = Package(
             .copy("Resources/DownView.bundle"),
             .copy("Resources/DownView (macOS).bundle"),
           ]
-        ),
-        .testTarget(
-            name: "DownTests",
-            dependencies: ["Down"],
-            path: "Tests/DownTests",
-            exclude: [
-                "AST/VisitorTests.swift",
-                "AST/__Snapshots__",
-                "DownViewTests.swift",
-                "Fixtures",
-                "Styler/__Snapshots__",
-                "Styler/BlockQuoteStyleTests.swift",
-                "Styler/CodeBlockStyleTests.swift",
-                "Styler/DownDebugLayoutManagerTests.swift",
-                "Styler/HeadingStyleTests.swift",
-                "Styler/LinkStyleTests.swift",
-                "Styler/InlineStyleTests.swift",
-                "Styler/ListItemStyleTests.swift",
-                "Styler/StylerTestSuite.swift",
-                "Styler/ThematicBreakSyleTests.swift"
-            ]
         )
     ],
     swiftLanguageVersions: [.v5]
