@@ -1,8 +1,8 @@
 framework module DownLib {
-    umbrella header "Down.h"
+    umbrella header "Sources/Down/Down.h"
 
     module libcmark [system][extern_c] {
-        header "node.h"
+        header "/Sources/cmark/node.h"
         export *
     }
 
